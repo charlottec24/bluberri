@@ -1,0 +1,143 @@
+/* Variables */
+
+
+/* Colors */
+@color1: #333333;
+@color2: #f6f6f6;
+@color3: #ff8120;
+@color4: #ff6600;
+@color5: #afcadd;
+@color6: #005596; 
+@color7: #014478; 
+@color8: #ffffff; 
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'GandhiSansRegular';
+    src: url('/_assets/fonts/GandhiSans-Regular-webfont.eot');
+    src: url('/_assets/fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-Regular-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-Regular-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-Regular-webfont.svg#GandhiSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GandhiSansItalic';
+    src: url('/_assets/fonts/GandhiSans-Italic-webfont.eot');
+    src: url('/_assets/fonts/GandhiSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-Italic-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-Italic-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-Italic-webfont.svg#GandhiSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GandhiSansBold';
+    src: url('/_assets/fonts/GandhiSans-Bold-webfont.eot');
+    src: url('vGandhiSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-Bold-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-Bold-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-Bold-webfont.svg#GandhiSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GandhiSansBoldItalic';
+    src: url('/_assets/fonts/GandhiSans-BoldItalic-webfont.eot');
+    src: url('/_assets/fonts/GandhiSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-BoldItalic-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-BoldItalic-webfont.svg#GandhiSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* mixins */
+.hide {
+	display: none;
+}
+
+.hideText {
+	color: transparent;
+	font: 0/0 a;
+}
+
+.bdrRadius (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+.bdrRadiusLeft (@radius: 5px) {
+  border-radius: @radius 0 0 @radius;
+  -webkit-border-radius: @radius 0 0 @radius;
+  -moz-border-radius: @radius 0 0 @radius;
+}
+
+.bdrRadiusRight (@radius: 5px) {
+  border-radius: 0 @radius @radius 0;
+  -webkit-border-radius: 0 @radius @radius 0;
+  -moz-border-radius: 0 @radius @radius 0;
+}
+
+.bgSize {
+	-o-background-size: 100% 100%, auto;
+	-moz-background-size: 100% 100%, auto;
+	-webkit-background-size: 100% 100%, auto;
+	background-size: 100% 100%, auto;
+}
+
+.bg_size_half {
+	-o-background-size: 50% auto, auto;
+	-moz-background-size: 50% auto, auto;
+	-webkit-background-size: 50% auto, auto;
+	background-size: 50% auto, auto;
+}
+
+.bgSizeWidth {
+	-o-background-size: 100% auto, auto;
+	-moz-background-size: 100% auto, auto;
+	-webkit-background-size: 100% auto, auto;
+	background-size: 100% auto, auto;
+}
+
+.textShadow (@distance, @transparency, @color) {
+	text-shadow: @distance @distance @transparency @color;
+}
+
+.boxShadow (@distance: 10px, @strength: 5px, @color: #000000) {
+	-moz-box-shadow: @distance @distance @strength @color;
+	-webkit-box-shadow:  @distance @distance @strength @color;
+	box-shadow:  @distance @distance @strength @color;
+}
+
+.sprite {
+	background-image: url(/assets/img/template/sprite.png);
+	background-repeat: no-repeat;
+}
+
+.center_image {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.transition(@time: .3s) {
+  transition: all @time ease-in-out;
+  -moz-transition: all @time ease-in-out;
+  -webkit-transition: all @time ease-in-out;
+}

@@ -231,10 +231,10 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%;
 }
-::selection {
-  background: #ff8120;
-  color: #f6f6f6;
-}
+/*::selection {
+	background: @color3;
+	color: @color2;
+}*/
 /* placeholder colors */
 form input::-webkit-input-placeholder {
   color: #666;
@@ -1231,16 +1231,4 @@ footer ul li a {
 footer ul li a:hover {
   color: #afcadd;
   text-decoration: none;
-}
-@media (min-width: 1200px) {
-  
-}
-#overlay {
-  background: url(/_assets/images/template/overlay.png) repeat 0 0;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10000;
 }

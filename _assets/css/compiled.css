@@ -1005,47 +1005,65 @@ img.responsive {
 /*        HEADER         */
 /*************************/
 header {
+  background: url(/_assets/images/header_gradient.png) no-repeat center top;
   margin: 0;
   float: left;
-  height: 173px;
+  height: 100%;
   width: 100%;
 }
-header h1 {
-  background: url(/_assets/images/template/siteLogo.png) 0 0 no-repeat;
-  float: left;
-  height: 63px;
-  margin-top: 26px;
-  width: 150px;
-}
-header h1 a {
-  display: block;
-  float: left;
-  height: 63px;
-  width: 150px;
-}
 header nav {
-  height: 37px;
+  clear: both;
+  height: 130px;
+  margin-bottom: 55px;
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
   width: 100%;
 }
 header nav ul {
-  margin: 0 auto;
-  padding-top: 3px;
-  width: 960px;
+  height: 100%;
+  text-align: center;
+}
+@media all and (min-width: 960px) {
+  header nav ul {
+    margin-left: 153px;
+    margin-right: 153px;
+  }
+}
+@media all and (min-width: 720px) and (max-width: 959px) {
+  header nav ul {
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+}
+@media all and (max-width: 719px) {
+  header nav ul {
+    margin: 0 auto;
+  }
 }
 header nav ul li {
-  float: left;
-  font-size: 1.4em;
-  margin-right: 2px;
-  margin-top: 3px;
+  /*display: inline-block;*/
+
+  font-family: calibri;
+  font-size: 24px;
+  position: relative;
 }
 header nav ul li a {
-  color: #ffffff;
+  color: #1577b6;
   display: block;
   float: left;
-  padding: 5px 16px;
+  line-height: 130px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+header nav ul li a.logo {
+  margin-right: 75px;
+}
+header nav ul li a.last {
+  margin-right: 0px;
 }
 header nav ul li a:hover {
-  color: #ffffff;
   text-decoration: none;
 }
 header nav ul li.social {

@@ -894,55 +894,74 @@ img.scale, img.responsive {
 /*        HEADER         */
 /*************************/
 header {
+	background: url(/_assets/images/header_gradient.png) no-repeat center top;
 	margin: 0;
 	float: left;
-	height: 173px;
+	height: 100%;
 	width: 100%;
 	
-	h1 {
-		background: url(/_assets/images/template/siteLogo.png) 0 0 no-repeat;
-		float: left;
-		height: 63px;
-		margin-top: 26px;
-		width: 150px;
-		
-		a {
-			display: block;
-			float: left;
-			height: 63px;
-			width: 150px;
-		}
-	}
-	
 	nav {
-		height: 37px;
+		clear: both;
+		height: 130px;
+		margin-bottom: 55px;
+		margin-top: 40px;
+		position: relative;
+		text-align: center;
 		width: 100%;
 		
 		ul {
-			margin: 0 auto;
-			padding-top: 3px;
-			width: 960px;
+			height: 100%;
+
+			@media all and (min-width: 960px) {
+				margin-left: 153px;
+				margin-right: 153px;
+			}
+
+			@media all and (min-width: 720px) and (max-width: 959px) {
+				margin-left: 39px;
+				margin-right: 39px;
+			}
+
+			@media all and (max-width: 719px) {
+				margin: 0 auto;
+			}
+
+			text-align: center;
 			
 			li {
-				float: left;
-				font-size: 1.4em;
-				margin-right: 2px;
-				margin-top: 3px;
+				/*display: inline-block;*/
+				font-family: calibri;
+				font-size: 24px;
+				position: relative;
 				
 				a {
-					color: @color8;
+					color: @menuBlue;
 					display: block;
 					float: left;
-					padding: 5px 16px;
-					
-					
+					line-height: 130px;
+					margin-right: 20px;
+					margin-top: auto;
+					margin-bottom: auto;
+
+					img {
+
+					}
+
+					&.logo {
+						margin-right: 75px;	
+					}
+
+					&.last {
+						margin-right: 0px;
+					}
+
 					&:hover {
-						color: @color8;
 						text-decoration: none;
 					}
 				}
+
 			}
-			
+
 			li.social {
 				margin-right: 4px;
 				margin-top: 0px;
@@ -969,7 +988,7 @@ header {
 				background: url(/_assets/images/icons/iconLinkedin.png) 0 0 no-repeat;
 			}		
 
-		}
+		}		
 	}
 }
 

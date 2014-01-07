@@ -19,7 +19,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
-	<link rel="stylesheet" type="text/css" href="/testEmma/_assets/css/compiled.css" />
+	<link rel="stylesheet" type="text/css" href="/_assets/css/compiled.css" />
 	
 	<script type="text/javascript" src=""></script>
 	

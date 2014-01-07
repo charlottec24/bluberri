@@ -9,13 +9,13 @@
 
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/testEmma/_includes/html-head.php";
+   $path .= "/_includes/html-head.php";
    include_once($path);
 ?>
 
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/testEmma/_includes/header.php";
+   $path .= "/_includes/header.php";
    include_once($path);
 ?>
 
@@ -43,6 +43,6 @@
 
 <?php 
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/testEmma/_includes/footer.php";
+   $path .= "/_includes/footer.php";
    include_once($path);
 ?>

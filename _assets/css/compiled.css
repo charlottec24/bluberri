@@ -265,9 +265,11 @@ form input:focus:-ms-input-placeholder {
   display: none;
 }
 body {
-  color: #333333;
+  background: #fff;
+  color: #393939;
   font-family: 'helvetica';
-  background: url(../images/template/bodyBg.gif) center 675px no-repeat #ffffff;
+  font-size: 13px;
+  line-height: 19px;
 }
 #uberContainer {
   width: 100%;
@@ -276,35 +278,43 @@ body {
 /*************************/
 /*         BASIC         */
 /*************************/
-h2 {
-  font-weight: normal;
-  font-size: 3em;
-  margin-bottom: 5px;
+/*h2 {
+	font-weight: normal;
+	font-size: 3em;
+	margin-bottom: 5px;
 }
+
 h3 {
-  font-weight: normal;
-  font-size: 1.2em;
-  margin-top: 20px;
-  color: #333333;
+	font-weight: normal;
+	font-size: 1.2em;
+	margin-top: 20px;
+	color: @color1;
 }
+
 p {
-  font-size: 1.2em;
-  line-height: 1.4em;
+	font-size: 1.2em;
+	line-height: 1.4em;
 }
+
 section li {
-  font-size: 1.8em;
-  line-height: 1.4em;
+	font-size: 1.8em;
+	line-height: 1.4em;
 }
-p a,
-li a {
-  color: #333333;
-  text-decoration: none;
+
+section ol li,
+section ul li {
+	
 }
-p a:hover,
-li a:hover {
-  color: #333333;
-  text-decoration: underline;
+
+p a, li a {
+	color: @color1;
+	text-decoration: none;
 }
+
+p a:hover, li a:hover {
+	color: @color1;
+	text-decoration: underline;
+}*/
 /*************************/
 /*        SHARED         */
 /*************************/
@@ -615,7 +625,6 @@ table {
 .grid-14,
 .grid-15,
 .grid-16 {
-  color: blue;
   display: inline;
   float: left;
   margin-bottom: 15px;
@@ -750,6 +759,10 @@ table {
 .container-12 {
   margin: auto;
   width: 960px;
+}
+.container-16 img,
+.container-12 img {
+  width: 100%;
 }
 .container-16 .grid-1 {
   width: 60px;
@@ -1056,6 +1069,7 @@ header nav ul li a {
   margin-right: 20px;
   margin-top: auto;
   margin-bottom: auto;
+  text-decoration: none;
 }
 header nav ul li a.logo {
   margin-right: 75px;

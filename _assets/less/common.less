@@ -58,9 +58,11 @@ form input:focus:-ms-input-placeholder {
 }
 
 body {
-	color: @color1;
+	background: #fff;
+	color: @font;
 	font-family: 'helvetica';
-	background: url(../images/template/bodyBg.gif) center 675px no-repeat #fff;
+	font-size: 13px;
+	line-height: 19px;
 }
 
 #uberContainer {
@@ -73,7 +75,7 @@ body {
 /*         BASIC         */
 /*************************/
 
-h2 {
+/*h2 {
 	font-weight: normal;
 	font-size: 3em;
 	margin-bottom: 5px;
@@ -109,7 +111,7 @@ p a, li a {
 p a:hover, li a:hover {
 	color: @color1;
 	text-decoration: underline;
-}
+}*/
 
 /*************************/
 /*        SHARED         */
@@ -471,7 +473,6 @@ table {
 }*/
 
 .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16 {
-	color: blue;
 	display: inline;
 	float: left;
 	margin-bottom: 15px;
@@ -610,6 +611,10 @@ table {
 .container-16, .container-12 {
 	margin: auto;
 	width: 960px;
+
+	img {
+		width: 100%;
+	}
 }
 
 .container-16 .grid-1 {
@@ -942,10 +947,7 @@ header {
 					margin-right: 20px;
 					margin-top: auto;
 					margin-bottom: auto;
-
-					img {
-
-					}
+					text-decoration: none;
 
 					&.logo {
 						margin-right: 75px;	

@@ -7,7 +7,7 @@
 
 				<div class="grid-16">
 					<nav role="navigation">
-						<ul>
+						<ul id="menu">
 							<li><a href="">About</a></li>
 							<li><a class="logo" href="">Services</a></li>
 							<li><a class="logo" href=""><img src="/_assets/images/logo.png"></a></li>

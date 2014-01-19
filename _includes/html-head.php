@@ -20,6 +20,8 @@
 	<![endif]-->
 	
 	<link rel="stylesheet" type="text/css" href="/_assets/css/compiled.css" />
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 	
 	<script type="text/javascript" src=""></script>
 	

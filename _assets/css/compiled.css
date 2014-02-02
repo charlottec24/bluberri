@@ -148,34 +148,53 @@ html[xmlns] .clearfix {
 /* Variables */
 /* Colors */
 /* fonts */
-@font-face {
-  font-family: 'GandhiSansRegular';
-  src: url('/_assets/fonts/GandhiSans-Regular-webfont.eot');
-  src: url('/_assets/fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('/_assets/fonts/GandhiSans-Regular-webfont.woff') format('woff'), url('/_assets/fonts/GandhiSans-Regular-webfont.ttf') format('truetype'), url('/_assets/fonts/GandhiSans-Regular-webfont.svg#GandhiSansRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+/*@font-face {
+    font-family: 'GandhiSansRegular';
+    src: url('/_assets/fonts/GandhiSans-Regular-webfont.eot');
+    src: url('/_assets/fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-Regular-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-Regular-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-Regular-webfont.svg#GandhiSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 @font-face {
-  font-family: 'GandhiSansItalic';
-  src: url('/_assets/fonts/GandhiSans-Italic-webfont.eot');
-  src: url('/_assets/fonts/GandhiSans-Italic-webfont.eot?#iefix') format('embedded-opentype'), url('/_assets/fonts/GandhiSans-Italic-webfont.woff') format('woff'), url('/_assets/fonts/GandhiSans-Italic-webfont.ttf') format('truetype'), url('/_assets/fonts/GandhiSans-Italic-webfont.svg#GandhiSansItalic') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'GandhiSansItalic';
+    src: url('/_assets/fonts/GandhiSans-Italic-webfont.eot');
+    src: url('/_assets/fonts/GandhiSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-Italic-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-Italic-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-Italic-webfont.svg#GandhiSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 @font-face {
-  font-family: 'GandhiSansBold';
-  src: url('/_assets/fonts/GandhiSans-Bold-webfont.eot');
-  src: url('vGandhiSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('/_assets/fonts/GandhiSans-Bold-webfont.woff') format('woff'), url('/_assets/fonts/GandhiSans-Bold-webfont.ttf') format('truetype'), url('/_assets/fonts/GandhiSans-Bold-webfont.svg#GandhiSansBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'GandhiSansBold';
+    src: url('/_assets/fonts/GandhiSans-Bold-webfont.eot');
+    src: url('vGandhiSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-Bold-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-Bold-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-Bold-webfont.svg#GandhiSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 @font-face {
-  font-family: 'GandhiSansBoldItalic';
-  src: url('/_assets/fonts/GandhiSans-BoldItalic-webfont.eot');
-  src: url('/_assets/fonts/GandhiSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'), url('/_assets/fonts/GandhiSans-BoldItalic-webfont.woff') format('woff'), url('/_assets/fonts/GandhiSans-BoldItalic-webfont.ttf') format('truetype'), url('/_assets/fonts/GandhiSans-BoldItalic-webfont.svg#GandhiSansBoldItalic') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+    font-family: 'GandhiSansBoldItalic';
+    src: url('/_assets/fonts/GandhiSans-BoldItalic-webfont.eot');
+    src: url('/_assets/fonts/GandhiSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/_assets/fonts/GandhiSans-BoldItalic-webfont.woff') format('woff'),
+         url('/_assets/fonts/GandhiSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('/_assets/fonts/GandhiSans-BoldItalic-webfont.svg#GandhiSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
 /* mixins */
 .hide {
   display: none;
@@ -1383,16 +1402,18 @@ section .inner article ul li {
 /*        FOOTER         */
 /*************************/
 footer {
+  background-color: #1577b6;
   clear: both;
   color: #ffffff;
-  font-size: 1.2em;
-  height: 37px;
-  line-height: 37px;
+  font-size: 1.3em;
+  height: 180px;
+  line-height: 1.9em;
+  margin-top: 50px;
   width: 100%;
 }
 footer ul {
   margin: 0 auto;
-  width: 960px;
+  width: auto;
 }
 footer ul li {
   float: left;

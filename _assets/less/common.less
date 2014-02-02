@@ -729,6 +729,50 @@ table {
 	width:960px;
 }
 /*}*/
+
+footer {
+	background-color: @footerBG;
+	clear: both;
+	color: @color8;
+	font-size: 13px;
+	height: 180px;
+	line-height: 19px;
+	margin-top: 50px;
+	padding-top: 40px;
+	width: 100%;
+
+	h2 {
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+
+	ul {
+		float: left;
+		height: auto;
+		margin: 0;
+		width: auto;
+
+		&.second {
+			float: right;
+		}
+
+		&.two {
+			width: 150px;
+		}
+
+		li {
+			
+			a {
+				color: @color8;
+				
+				&:hover {
+					color: @color5;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
 	
 /*** 4.  Grid 720px (mediaqueries) ***/
 
@@ -850,6 +894,23 @@ table {
 	.container-12 .grid-12 {
 		width:720px;
 	}
+
+	footer {
+
+		h2 {
+			margin-bottom: 15px;
+		}
+
+		ul.two {
+			width: 112px;
+
+
+			li {
+				font-size: 12px;
+			}
+		}
+	}
+
 }
 	
 
@@ -882,6 +943,37 @@ table {
 	
 	.container-16 .grid-1, .container-16 .grid-2, .container-16 .grid-3, .container-16 .grid-4, .container-16 .grid-5, .container-16 .grid-6, .container-16 .grid-7, .container-16 .grid-8, .container-16 .grid-9, .container-16 .grid-10, .container-16 .grid-11, .container-16 .grid-12, .container-16 .grid-13, .container-16 .grid-14, .container-16 .grid-15, .container-16 .grid-16, .container-12 .grid-1, .container-12 .grid-2, .container-12 .grid-3, .container-12 .grid-4, .container-12 .grid-5, .container-12 .grid-6, .container-12 .grid-7, .container-12 .grid-8, .container-12 .grid-9, .container-12 .grid-10, .container-12 .grid-11, .container-12 .grid-12 {
 		width:100%;
+	}
+
+	li a.mobileHide {
+		display: none;
+	}
+
+	.mobileTop {
+		margin-top: -200px;
+	}
+
+	footer {
+		height: 300px;
+		margin-top: 0px;
+		padding-top: 30px;
+
+		h2 {
+			margin-bottom: 15px;
+		}
+
+		ul {
+
+			&.two {
+				width: 142px;
+			}
+
+			&.second {
+				float: left;
+			}
+
+
+		}
 	}
 }
 
@@ -1155,7 +1247,7 @@ section {
   background-color: #f5f5f5;
 }
 .slicknav_menu {
-	background:#4c4c4c;
+	background:@color8;
 	padding:5px;
 }
 .slicknav_nav {
@@ -1180,7 +1272,7 @@ section {
 	padding:5px 10px;
 	margin:2px 5px;
 	text-decoration:none;
-	color:#fff;
+	color:@menuBlue;
 }
 .slicknav_nav .slicknav_item a {
 	padding:0;
@@ -1238,31 +1330,5 @@ section {
 /*        FOOTER         */
 /*************************/
 footer {
-	background-color: @footerBG;
-	clear: both;
-	color: @color8;
-	font-size: 1.3em;
-	height: 180px;
-	line-height: 1.9em;
-	margin-top: 50px;
-	width: 100%;
 	
-	ul {
-		margin: 0 auto;
-		width: auto;
-		
-		li {
-			float: left;
-			margin-right: 10px;
-			
-			a {
-				color: @color8;
-				
-				&:hover {
-					color: @color5;
-					text-decoration: none;
-				}
-			}
-		}
-	}
 }

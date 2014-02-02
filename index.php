@@ -21,7 +21,7 @@
 
 <div class="container-16">
 
-   <div class="grid-10">
+   <div class="grid-10 mobileTop">
       <img src="/_assets/images/laptop.png">
    </div>
    <div class="grid-5">

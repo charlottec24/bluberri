@@ -10,7 +10,7 @@
 						<ul id="menu">
 							<li><a href="">About</a></li>
 							<li><a class="logo" href="">Services</a></li>
-							<li><a class="logo" href=""><img src="/_assets/images/logo.png"></a></li>
+							<li><a class="logo mobileHide" href=""><img src="/_assets/images/logo.png"></a></li>
 							<li><a href="">Portfolio</a></li>
 							<li><a class="last" href="">Contact</a></li>
 						</ul>

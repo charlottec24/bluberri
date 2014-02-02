@@ -4,30 +4,28 @@
 			<div class="container-16">
 
 				<div class="grid-5">
-					<h2>Contact</h2>
+					<h2><strong>Contact</strong></h2>
 					<ul>
 						<li>E: enquiries@bluberri-designs.co.uk</li>
 						<li>T: 07855 084128</li>
 					</ul>
 				</div>
 				<div class="grid-5">
-					<h2>What we do</h2>
-					<ul>
+					<h2><strong>What we do</strong></h2>
+					<ul class="two">
 						<li>Bespoke web design</li>
 						<li>Printed marketing</li>
 						<li>Photography</li>
 						<li>Website development</li>
 					</ul>
-					<ul>
+					<ul class="second two">
 						<li>Branding</li>
 						<li>Email marketing</li>
-						<li>Content Management systems</li>
+						<li>Content Management<br />systems</li>
 					</ul>
 				</div>
 				<div class="grid-5">
-					<h2><strong>Simple.</strong></h2>
-					<h2><strong>Beautiful.</strong></h2>
-					<h2><strong>Practical</strong> design</h2>
+					<h2><strong>Simple.<br />Beautiful.<br/>Practical</strong> design</h2>
 				</div>
 
 			</div>

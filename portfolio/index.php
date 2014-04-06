@@ -19,14 +19,14 @@
    include_once($path);
 ?>
 
-<div class="container-16 mobileTop">
+<div class="container-16">
 
-   <div class="grid-16">
+   <div class="grid-16 mobileTop">
       <h1>Portfolio</h1>
    </div>
 
    <!-- First Row -->
-   <div class="grid-5">
+   <div class="grid-5 firstCase">
       <img src="/_assets/images/casaOlinto.jpg">
       <h2><a href="">Case Study</a></h2>
       <p>Identity, Website, Exhibition, Advertising</p>
